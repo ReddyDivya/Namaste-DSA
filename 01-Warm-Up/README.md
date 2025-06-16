@@ -16,4 +16,4 @@ This module covers the basics of programming to help you build a strong foundati
   - [⚡ Find Second Largest Element](https://github.com/ReddyDivya/Namaste-DSA/blob/main/01-Warm-Up/secondLargest.js)
 
 
-Made with ❤️ by [ReddyDivya](https://github.com/ReddyDivya)
+### Made with ❤️ by [Reddy Divya](https://github.com/ReddyDivya)
