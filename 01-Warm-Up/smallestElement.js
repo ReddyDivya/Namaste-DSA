@@ -1,5 +1,7 @@
 // smallestElement.js
 
+// smallestElement.js
+
 console.log("Return smallest element from an array:");
 
 let arr = [5, 10, 8, 17, 3, -1, -9];
@@ -11,11 +13,11 @@ function findSmallestElement(arr) {
     // Loop through each element in the array
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] < min) {
-            min = arr[i]; // Update min if the current element is smaller
+            min = arr[i]; // Update min if current element is smaller
         }
     }
 
-    return min; // Return the smallest element found in the array
+    return min; // Return the smallest element found
 }
 
 // Test cases
