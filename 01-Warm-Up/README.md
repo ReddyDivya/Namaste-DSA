@@ -17,7 +17,15 @@ This module builds a strong foundation in programming before diving into advance
    - 4.4 [⬇️ Find Smallest Element](https://github.com/ReddyDivya/Namaste-DSA/blob/main/01-Warm-Up/smallestElement.js)
 5. **Second Largest Element**
    - 5.1 [⚡ Find Second Largest Element](https://github.com/ReddyDivya/Namaste-DSA/blob/main/01-Warm-Up/secondLargest.js)
-
+6. **Loop in Loop**
+7. **Star Pattern**
+8. **Count Digit**
+   - 8.1 [⚡ Count Digits](https://github.com/ReddyDivya/Namaste-DSA/blob/main/01-Warm-Up/countDigits.js)
+10. **Palindrome**
+   - 9.1 [⚡ Palindrome](https://github.com/ReddyDivya/Namaste-DSA/blob/main/01-Warm-Up/isPalindrome.js)
+11. **Reverse Integer**
+   - 10.1 [⚡ Reverse Integer]()
+   
 ---
 
 ## ✨ Coming Up Next
