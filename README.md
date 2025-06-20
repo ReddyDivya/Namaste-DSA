@@ -17,13 +17,25 @@ Namaste DSA is a structured, beginner-friendly course designed to build strong p
 ## 📂 Repository Structure
 
 ```plaintext
+
 Namaste-DSA/
 ├── README.md               # Course overview and progress
-├── 01-Warm-Up/             # Warm-up Module
-│   ├── patterns/           # Pattern problems (star, number, character)
-│   ├── basic-maths/        # Math-based warm-up problems
-│   ├── solutions/          # Code solutions (JavaScript)
-│   └── notes.md            # Notes and explanations
+└── 01-Warm-Up/
+    ├── 01-programming-101/        # Basics of programming (variables, input/output, etc.)
+    ├── 02-functions-if-else/      # Functions, conditionals
+    ├── 03-loops-part-01/          # Basic loops problems
+    ├── 04-loops-part-02/          # More loop problems
+    │   ├── searchElement.js
+    │   ├── countNegatives.js
+    │   ├── largestElement.js
+    │   ├── smallestElement.js
+    │── 05. secondLargest.js   
+    ├── 06-loop-in-loop/            # Nested loops problems
+    ├── 07-Star patterns/           # Star, number, character patterns
+    ├── 08. countDigits.js          # Count digits
+    │── 09. isPalindrome.js         # palindrome
+    │── 10. reverse.js              # reverse integer
+    └── README.md                   # Warm-up Module README file
 ├── 02-Time/Space Complexity/  
 ├── 03-Arrays/              # Arrays Module
 │   ├── easy/               # Easy-level problems
