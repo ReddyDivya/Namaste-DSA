@@ -1,5 +1,8 @@
 # Binary Search (JavaScript)
 
+### [704. Binary Search](https://leetcode.com/problems/binary-search/description/)
+
+
 ## 📌 Introduction
 Binary Search is an efficient algorithm for finding a target element in a **sorted array**.  
 It works by repeatedly dividing the search interval in half:  
