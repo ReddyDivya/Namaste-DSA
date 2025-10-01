@@ -9,38 +9,31 @@ Selection Sort is a simple comparison-based sorting algorithm. It works by repea
 - Swap the found minimum with the first element.
 - Move to the next index and repeat the process until the array is sorted.
 
-## Code
+## Pseudo Code
 
 ```
 // Function to perform Selection Sort
-function selectionSort(arr) {
-    let n = arr.length; // Get the length of the array
+function selectionSort(A) {
+    n = A.length
 
-    // Outer loop: iterate through each element (except the last)
-    for (let i = 0; i < n - 1; i++) {
-        let min = i; // Assume the current index holds the minimum value
+    for (i = 0; i < n - 1; i++) {
+        minIndex = i
 
-        // Inner loop: check the rest of the array to find the smallest element
-        for (let j = i + 1; j < n; j++) {
-            if (arr[j] < arr[min]) {
-                min = j; // Update min if a smaller element is found
+        // Find the index of the minimum element
+        for (j = i + 1; j < n; j++) {
+            if (A[j] < A[minIndex]) {
+                minIndex = j
             }
         }
 
-        // Swap if the current index is not the smallest
-        if (min !== i) {
-            let temp = arr[i];
-            arr[i] = arr[min];
-            arr[min] = temp;
+        // Swap if minIndex has changed
+        if (minIndex !== i) {
+            swap A[i] and A[minIndex]
         }
     }
 
-    return arr; // Return the sorted array
+    return A
 }
-
-// Example usage
-console.log(selectionSort([5, 3, 1, 9, 8, 2])); // Output: [1, 2, 3, 5, 8, 9]
-
 ```
 
 ## Time Complexity
